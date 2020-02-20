@@ -3,7 +3,7 @@
     <b-container fluid>
       <b-row>
         <b-col>ugo olivari</b-col>
-        <b-col><div class="text-center">graphic design</div></b-col>
+        <b-col>graphic design</b-col>
         <b-col><div class="float-right">contact@ugo-olivari.me</div></b-col>
       </b-row>
       <project-list></project-list>
