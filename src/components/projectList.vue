@@ -29,22 +29,22 @@
 </template>
 
 <script>
-import axios from 'axios'
+import axios from 'axios';
 export default {
   name: 'projectList',
   data: () => ({
     projects: []
   }),
-  async created () {
-    const pl = await axios.get('projects.json')
+  async created() {
+    const pl = await axios.get('projects.json');
     pl.data.projects.forEach(p => {
       p.uniqueid =
         'id' +
         Math.random()
           .toString(36)
-          .substr(2, 9)
-      this.projects.push(p)
-    })
+          .substr(2, 9);
+      this.projects.push(p);
+    });
   }
-}
+};
 </script>

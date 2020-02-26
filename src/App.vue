@@ -12,9 +12,9 @@
 </template>
 
 <script>
-import projectList from './components/projectList'
+import projectList from './components/projectList';
 export default {
   name: 'App',
   components: { projectList }
-}
+};
 </script>
